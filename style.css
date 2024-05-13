@@ -1,0 +1,111 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #e9c46a;
+}
+h1
+{
+    text-align: center;
+}
+h5
+{
+    text-align: center;
+    margin-left: 8rem;
+}
+h3
+{
+    font-family: "Raleway", sans-serif;
+
+}
+.heading
+{
+    margin-top: 2em;
+    font-family: "Raleway", sans-serif;
+}
+.btn
+{
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#title
+{
+    text-align: center;
+    padding-top: 3rem;
+}
+button
+{
+    height: 2.5rem;
+    width: 7rem;
+    background-color: #e76f51;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#p1,#p2
+{
+    margin: -7rem 5rem 2rem 5rem;
+}
+
+button.hide{
+    display: none;
+}
+
+.container {
+    margin-top: -3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.gamebox.hide
+{
+    display: none;
+}
+.game {
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.box {
+    margin: 0;
+    height: 5rem;
+    width: 5rem;
+    font-size: xx-large;
+}
+.gamebox
+{
+    animation-name: gameboxAnimate;
+    animation-duration: 2s;
+}
+@keyframes gameboxAnimate {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+.winner
+{
+    text-align: center;
+    padding: 0.5rem;
+}
+.gamebtn
+{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+#restart.hide
+{
+    display: none;
+}
+#newgame.hide
+{
+    display: none;
+}
